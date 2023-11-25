@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    width: 100%;
+
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+#en{
+    margin-top:15px;
+}
+#logo{
+    
+    font-size: 25px;
+    color: rgb(223, 132, 14);
+}
+.navbar  li{
+    list-style: none;
+    
+}
+.navbar  li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.navbar  li input{
+    width: 500px;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+.searchbox{
+    
+    width: 551px;
+     height: 40px;
+     margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.navbar li  .searchbutton {
+    width: 51px;
+    height: 40px;
+    background-color: rgb(255, 166, 0);
+    font-size: 20px;
+   border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+}
+.navbar2{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(56, 52, 52);
+}
+.navbar2 .ul1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar2 .ul1 li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+.navbar2 .ul1 li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar2 .ul2 li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar2 .ul2 li{
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 8px;
+}
+.card{
+    height: 500px;
+    width: 100%;
+    border-bottom: solid black 5px;
+}
+
+.card2{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+}
+.card2 li{
+    list-style: none;
+    margin-top: 10px;
+}
+.smcard{
+    height: 300px;
+    width: 300px;
+    border: solid whitesmoke 10px;
+}
+.card3{
+    height: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+ 
+}
+.card3 li{
+    list-style: none;
+    margin-top: 20px;
+}
+.smcard3{
+    height: 300px;
+    width: 300px;
+    border: solid whitesmoke 10px;
+}
+.card4{
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+}
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+   
+    
+}
+.footer .lists{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+     margin-left: 135px;
+}
+
+.footer .lists .ul1 li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+   
+}
+.footer .lists .ul1{
+    list-style: none;
+    margin-top: 30px;
+    
+}
+.footer .lists .ul1 li{
+    margin: 8px;
+}
+.footer .lists .ul2 li{
+    margin: 8px;
+}
+.footer .lists .ul3 li{
+    margin: 8px;
+}
+.footer .lists .ul4 li{
+    margin: 8px;
+}
+.footer .lists .ul1 h4{
+    color: white;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .lists .ul2 li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.footer .lists .ul2{
+    list-style: none;
+    margin-top: 30px;
+    
+}
+.footer .lists .ul2 h4{
+    color: white;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .lists .ul3 li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.footer .lists .ul3{
+    list-style: none;
+    margin-top: 30px;
+    
+}
+.footer .lists .ul3 h4{
+    color:white;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .lists .ul4 li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.footer .lists .ul4{
+    list-style: none;
+    margin-top: 30px;
+}
+.footer .lists .ul4 h4{
+    color: white;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.downfooter{
+    
+    height: 200px;
+    width: 100%;
+    border-top: solid rgb(131, 114, 114)  1px;
+
+    
+   
+}
+.downfooter ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+.downfooter ul li{
+   
+    list-style: none;
+    
+}
+.downfooter ul li button{
+    font: 20px;
+    height: 30px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+}
+.downfooter ul li h1{
+    color:  rgb(223, 132, 14);
+    font-size: 40px;
+}
+.downfooter article{
+    font-size: 15px;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
